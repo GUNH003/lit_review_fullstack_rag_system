@@ -1,0 +1,12 @@
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Server] Starting up...
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Embedding] Threadpool initialized (max_workers=64)
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Embedding] Model BAAI/bge-small-en-v1.5 initialized
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Qdrant] Collection rag exists
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Qdrant] Writers initialized (writer_count=64)
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Server] All services initialized
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Server] Checking knowledge integrity...
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Server] Qdrant store has 81 documents
+2025-12-07 23:02:35 | INFO   | MainThread | 140704376250240 | [Server] Knowledge base is up to date
+2025-12-07 23:02:44 | INFO   | MainThread | 140704376250240 | [DEBUG] Content-Type: application/json
+2025-12-07 23:02:44 | INFO   | MainThread | 140704376250240 | [DEBUG] Raw body length: 123
+2025-12-07 23:02:44 | INFO   | MainThread | 140704376250240 | [DEBUG] Raw body: b'{"messages":[{"role":"user","content":"hi","references":[]}],"provider":"ollama","rag_mode":false,"topk":5,"threshold":0.6}'
